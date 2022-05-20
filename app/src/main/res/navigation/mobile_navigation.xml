@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_doctor">
+
+    <fragment
+        android:id="@+id/navigation_doctor"
+        android:name="lk.example.pharmacyapp.DoctorFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_doctor" />
+    <fragment
+        android:id="@+id/navigation_drug"
+        android:name="lk.example.pharmacyapp.DrugFragment"
+        android:label="@string/title_drug"
+        tools:layout="@layout/fragment_drug" />
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="lk.example.pharmacyapp.UserProfileFragment"
+        android:label="@string/title_drug"
+        tools:layout="@layout/fragment_user_profile" />
+
+
+</navigation>

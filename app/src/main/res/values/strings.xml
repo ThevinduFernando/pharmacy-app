@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Pharmacy App</string>
+    <string name="title_activity_merchant">Pharmacy App</string>
+    <string name="title_home">Doctors</string>
+    <string name="title_drug">Drug</string>
+    <string name="title_order">Orders</string>
+    <string name="title_dashboard">Drugs</string>
+    <string name="title_notifications">View Orders</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_cart">Cart</string>
+    <string name="title_payments">Payment</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_user">Pharmacy App</string>
+</resources>
